@@ -1,0 +1,42 @@
+#imgFondo {
+    background-image: url('../img/mancuernas.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+    height: 800px;
+}
+
+.formInputs {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.parrafos {
+    text-align: initial;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.inputForm {
+    border-radius: 25px !important;
+    height: 60px;
+}
+
+#btnMostrar {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#centrarV {
+    margin-top: 20%;
+}
+
+@media only screen and (max-width: 800px) {
+    #imgFondo {
+        width: 100%;
+        height: 200px;
+    }
+}
